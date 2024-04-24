@@ -1,0 +1,18 @@
+{% block logo %}
+    <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-start">
+        <div class="me-3">
+            <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-bs-toggle="minimize">
+                <span class="icon-menu"></span>
+            </button>
+        </div>
+        <div>
+            {% load static %}
+        <a class="navbar-brand brand-logo" href="{% url  'index' %}">
+            <img src="https://media.istockphoto.com/id/1465343359/vector/continuous-teamwork-and-human-solidarity-idea-logo.jpg?s=1024x1024&w=is&k=20&c=ZdGq4PnnAaCNWxEzyBtF51eJXEFBMiDjxLzzKTt_x-E=" alt="logo" />
+        </a>
+        <a class="navbar-brand brand-logo-mini" href="{% url  'index' %}">
+            <img src="https://media.istockphoto.com/id/1465343359/vector/continuous-teamwork-and-human-solidarity-idea-logo.jpg?s=1024x1024&w=is&k=20&c=ZdGq4PnnAaCNWxEzyBtF51eJXEFBMiDjxLzzKTt_x-E=" alt="logo" />
+        </a>
+        </div>
+    </div>
+{% endblock %}
